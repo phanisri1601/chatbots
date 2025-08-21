@@ -43,7 +43,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = os.getenv('FLASK_SECRET_KEY', 'dev-secret-change-me')
+app.secret_key = "A4-W8HfRaXC---Fvb-67mgeE68WySAZa73YES8uP7Us"
 
 # Initialize Firebase (Realtime Database) for leads
 rtdb_available = False
